@@ -4,7 +4,7 @@
 # Contributor: Tom Gundersen <teg@jklm.no>
 
 pkgname=syncretic-filesystem
-pkgver=2018.8
+pkgver=$(date +%Y.%m.%d)
 pkgrel=1
 pkgdesc='Base Syncretic Linux files'
 arch=('x86_64')
