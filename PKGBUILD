@@ -14,7 +14,7 @@ groups=('base')
 depends=('iana-etc')
 replaces=('filesystem')
 provides=('filesystem')
-provides=('filesystem>=2011.10-1')
+provides=('filesystem=2018.1-3')
 conflicts=('filesystem')
 backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/hosts' 'etc/hostname' 'etc/issue' 'etc/ld.so.conf' 'etc/locale.conf'
