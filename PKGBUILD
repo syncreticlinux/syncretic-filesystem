@@ -13,6 +13,7 @@ url='https://syncretic.mkxt.net'
 groups=('base')
 depends=('iana-etc')
 replaces=('filesystem')
+provides=('filesystem')
 conflicts=('filesystem')
 backup=('etc/crypttab' 'etc/fstab' 'etc/group' 'etc/gshadow' 'etc/host.conf'
         'etc/hosts' 'etc/hostname' 'etc/issue' 'etc/ld.so.conf' 'etc/locale.conf'
